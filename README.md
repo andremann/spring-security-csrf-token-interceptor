@@ -43,7 +43,7 @@ Note: All these below configurations are optional.
 
 - `options.maxRetries` (Number) - The number of retries allowed for CSRF token call in-case of [403 Forbidden](http://en.wikipedia.org/wiki/HTTP_403) response errors. Default: `5`.
 
-- `options.csrfTokenHeader` (Array) - Set this option to add the CSRF headers only to some HTTP requests. Default: `['GET', 'HEAD', 'PUT', 'POST', 'DELETE']`.
+- `options.httpTypes` (Array) - Set this option to add the CSRF headers only to some HTTP requests. Default: `['GET', 'HEAD', 'PUT', 'POST', 'DELETE']`.
 
 - `options.csrfTokenHeader` (String) - Customize the name of the CSRF header on the requests. Default: `X-CSRF-TOKEN`.
 
